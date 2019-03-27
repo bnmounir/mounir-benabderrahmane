@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-133374571-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-133374571-1');
+</script>
+
+    <meta charset="utf-8" />
+    <meta name="description" content="Mounir Benabderrahmane Portfolio" />
+    <meta name="theme-color" content="#3f51b5"/>
+    <meta
+      name="keywords"
+      content="Mounir Website Portfolio, Mounir Benabderrahmane portfolio, Mounir Benabderrahmane portfolio website, Mounir Website"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Mounir Benabderrahmane</title>
+    <link
+      rel="shortcut icon"
+      href="assets/img/favicon.ico"
+    />
+    <!-- Michael Scott is one of my heros so sue me... oh, no, don't! that's against the point I'm trying to make! -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Quicksand"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
+      integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/"
+      crossorigin="anonymous"
+    />
+    <!-- <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    /> -->
+    <link rel="stylesheet" href="assets/css/styles.css" />
+  </head>
+  <body>
+    <header>
+      <h2><a href="#projects">Projects</a></h2>
+      <nav>
+        <li>
+          <a href="#story"><i class="fas fa-history"></i> Story</a>
+        </li>
+        <li>
+          <a rel="noopener" href="https://github.com/bnmounir?tab=repositories" rel="noopener" target="_blank"
+            ><i class="fab fa-github-square"></i> Github</a
+          >
+        </li>
+        <li>
+          <a href="#contact"><i class="fas fa-book"></i> Contact</a>
+        </li>
+      </nav>
+    </header>
+
+    <section class="hero">
+      <div
+        class="background-image"
+        style="background-image: url(assets/img/main.jpg);"
+      ></div>
+      <div class="hero-content-area">
+        <h1>Hello, there!</h1>
+        <h2>I'm Mounir Benabderrahmane... <h6>long last name eh!  ¯\_(ツ)_/¯</h6></h2>
+        <h3>A web developer’s portfolio. Inquiries Welcome.</h3>
+
+        <a href="mailto:bnmounir7@gmail.com" target="_top" class="btn"
+          onClick="ga('send', 'event', {
+            eventCategory: 'Button',
+            eventAction: 'Click'
+          })">Reach Out</a
+        >
+      </div>
+    </section>
+    <section class="experience">
+      <h3 class="title">Skill Set</h3>
+      <hr />
+      <ul style="text-align:center">
+        <li class="li-skill">HTML5 and CSS3</li>
+        <li class="li-skill">UI-UX and CSS-Based Design Templates</li>
+        <li class="li-skill">Helper Libraries: jQuery, PaperJs and HolwerJS</li>
+        <li class="li-skill">
+          Modern Javascript, with new methods and concepts such as classes and async function
+        </li>
+        <li class="li-skill">
+          Client-Side Technology, including React with Redux, Webpack, and Babel
+        </li>
+        <li class="li-skill">
+          Server-Side Technology, including NodeJS, Express, and MongoDB with Mongoose and REST APIs
+        </li>
+        <li class="li-skill">Google Analytics and Digital Sales</li>
+        <li class="li-skill">Git version control + Github hosting</li>
+      </ul>
+    </section>
+    <section id="projects" class="projects">
+      <h3 class="title">Projects</h3>
+      <p>
+        Below is a selection of my previous work. Please visit my GitHub for more <a rel="noopener" href="https://github.com/bnmounir/"
+        ><i class="fab fa-github-square"></i
+      ></a></p>
+         
+      
+      <hr />
+
+      <ul class="grid">
+        <li>
+          <a href="firstApp/index.html"
+            >The Color Game</i
+          ></a><br>
+          <a 
+          rel="noopener"
+          href="https://github.com/bnmounir/public/tree/master/firstApp"
+          target="_blank"
+            ><i class="fab fa-github-square"></i
+          ></a>
+
+          <p>
+            <h4>Description</h4>
+              A color guessing game that takes Red,Green,Blue
+              each color goes from 0 (non existent) to 255(highest), mixing these numbers gives a certain color that you have to guess by just looking at the numbers you can Reset and Play again and levels of difficulty.
+              <h4>Technical stuff</h4> 
+              using vanilla JavaScript that generates random colors from 0 to 255 for each color, then runs this function that manipulating the DOM for six Divs, giving them different color, only one matches the correct answer, then it changes the background color to the right answer when picked. 
+          </p>
+          <p></p>
+        </li>
+
+        <li>
+          <a rel="noopener" href="https://limitless-lake-16790.herokuapp.com/"
+          target="_blank">TalkToMe</a><br>
+
+          <a rel="noopener" href="https://github.com/bnmounir/" target="_blank"
+            ><i class="fab fa-github-square"></i
+          ></a>
+
+          <p>
+            <h4>Description</h4>
+            “TalkToMe is a social network where you can create an account, password reset, admin level accounts, add a subject, comment on other people's subjects, and you can also give your subject a location with google maps.
+            <h4>Technical Stuff</h4>
+            Build with Model–view–controller architecture has authentication with passportJS using Nodejs, Express,
+            and MongoDB (with Mongoose), Embedded Javascript (EJS), RESTful Routing, Data persistance with a MongoBD Cloud Atlas, also it uses google maps API for Geolocation and it's deployed and hosted on Heroku.
+          </p>
+        </li>
+        <li>
+          <a rel="noopener" href="https://commapp-middleman.herokuapp.com/" target="_blank"
+            >Middleman</a>
+          <a rel="noopener" href="https://stormy-reef-64738.herokuapp.com/" target="_blank"
+            >API</a><br>
+          <a rel="noopener" href="https://github.com/bnmounir/fullstack-app" target="_blank"
+            ><i class="fab fa-github-square"></i
+          ></a>
+
+          <p>
+            <h4>Description</h4>
+            Middleman is a communication app that let's you create an account an have access to a timeline of people's discussions like a modern suggestion box. it could be implemented by any group of people to listen to what everyone is thinking in that group (the last part is still under construction, right now it's just on pool of discussions).
+            <h4>Technical Stuff</h4>
+            A fullstack MERN application build with node, and MongoDB Cloud
+            Atlas for data persistence, the server is an REST API build with express
+            that serves JSON, the client is a Single-page application build with
+            React create-react-app and uses Redux store as a front-end state
+            manager
+          </p>
+        </li>
+      </ul>
+    </section>
+
+    <section class="destinations">
+      <h3 class="title">things I'm into these days:</h3>
+      <p>
+        Books, Climbing, Cooking, Javascript, Photography, Travelling...
+      </p>
+      <hr />
+
+      <ul class="grid">
+        <li
+          class="small"
+          style="background-image: url(assets/img/pic1.png);"
+        ></li>
+        <li
+          class="large"
+          style="background-image: url(assets/img/pic2.jpg);"
+        ></li>
+        <li
+          class="large"
+          style="background-image: url(assets/img/pic3.jpg);"
+        ></li>
+        <li
+          class="small"
+          style="background-image: url(assets/img/pic4.jpg);"
+        ></li>
+        <li
+          class="small"
+          style="background-image: url(assets/img/pic5.jpg);"
+        ></li>
+        <li
+          class="large"
+          style="background-image: url(assets/img/pic6.jpg);"
+        ></li>
+      </ul>
+    </section>
+
+    <section class="history">
+      <h3 class="title" id="story">A little about me</h3>
+      <hr />
+      <ul class="grid">
+        <li>
+          <i class="fas fa-graduation-cap"></i>
+          <h5>Education</h5>
+          <p>
+              Bachelor's in Environmental Engineering 2015 from UofB Algeria, during which i took some coding courses as part of the curriculum, after that I started looking for languages and how to approach the learning process, I started with python tutorials on YouTube than started taking some free courses on Udacity and Coursera then switched to Udemy after which I found my self leaning towards Web Development and Javascript.  
+          </p>
+        </li>
+        <li>
+          <i class="fas fa-map-marker-alt"></i>
+          <h5>The Journey</h5>
+          <p>
+              After I moved to the US in 2015, I took English courses for two years and studied and coding on the side (listed in Education). At the end of 2018, I was finally able to start a one-year coding bookcamp for web development at Code Immersives. I am now completing my second trimester.
+          </p>
+        </li>
+        <li>
+          <i class="fas fa-user-astronaut"></i>
+          <h5>Coding & Projects</h5>
+          <p>
+              Check out my GitHub! You’ll see the projects I’ve been working on along the way. I’m constantly updating with new work and would love to hear your thoughts.”
+          </p>
+        </li>
+        <li>
+          <i class="fas fa-route"></i>
+          <h5>Where To Next</h5>
+          <p>
+             expanding on programming languages knowledge, data structures and algorithms (for writing a more efficient code), doing research on advanced software development to find new inspirations, data analytics and machine learning (i'm open minded, capable of adjusting along the way and optimizing).
+          </p>
+        </li>
+      </ul>
+      <div>
+        <a id="more-about" href="./story.html"
+          >Learn more here<span style="color:rgb(253, 253, 21)"><i class="far fa-meh-rolling-eyes"></i
+        ></span></a>
+      </div>
+    </section>
+
+    <footer id="contact">
+      <p>Contacts:</p>
+      <ul>
+        <li>
+          <a href="mailto:bnmounir7@gmail.com" target="_top"
+            ><i class="far fa-envelope" onClick="ga('send', 'event', 'Button', 'Click')"></i> Email</a
+          >
+        </li>
+        <li>
+          <a
+          rel="noopener"
+            href="https://www.linkedin.com/in/mounir-benabderrahmane-16837814a/"
+            target="_blank" onClick="ga('send', 'event', 'Button', 'Click')"
+            ><i class="fab fa-linkedin"></i> LinkedIn</a
+          >
+        </li>
+        <li>
+          <a rel="noopener" href="https://github.com/bnmounir?tab=repositories" target="_blank" onClick="ga('send', 'event', 'Button', 'Click')"
+            ><i class="fab fa-github-square"></i> Github</a
+          >
+        </li>
+      </ul>
+    </footer>
+  </body>
+</html>
